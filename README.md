@@ -2,7 +2,8 @@
 
 Welcome to the **Hello World MCP Server**! This project demonstrates how to set up a server using the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/typescript-sdk) SDK. It includes tools, prompts, and endpoints for handling server-sent events (SSE) and messages.
 
-This project is part of the blog post: [Building a TypeScript MCP Server: A Guide for Integrating Existing Services](https://medium.com/@jageenshukla/building-a-typescript-mcp-server-a-guide-for-integrating-existing-services-5bde3fc13b23). Visit the blog to learn more about the concepts and implementation details behind this project.   
+This project is part of the blog post: [Building a TypeScript MCP Server: A Guide for Integrating Existing Services](https://medium.com/@jageenshukla/building-a-typescript-mcp-server-a-guide-for-integrating-existing-services-5bde3fc13b23). Visit the blog to learn more about the concepts and implementation details behind this project.
+
 ---
 
 ## Features
@@ -164,4 +165,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
