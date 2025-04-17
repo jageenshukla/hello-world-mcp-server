@@ -1,6 +1,6 @@
 # Hello World MCP Server
 
-Welcome to the **Hello World MCP Server**! This project demonstrates how to set up a server using the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/sdk) SDK. It includes tools, prompts, and endpoints for handling server-sent events (SSE) and messages.
+Welcome to the **Hello World MCP Server**! This project demonstrates how to set up a server using the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/typescript-sdk) SDK. It includes tools, prompts, and endpoints for handling server-sent events (SSE) and messages.
 
 ---
 
