@@ -1,4 +1,5 @@
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
+import {StdioServerTransport} from "@modelcontextprotocol/sdk/server/stdio.js";
 import { Request, Response } from "express";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
@@ -43,4 +44,15 @@ export function setupMessageEndpoint(app: any) {
       res.status(400).send("No transport found for sessionId");
     }
   });
+}
+
+export async function setupStdIOServer(server: McpServer) {
+  try {
+    const transport = new StdioServerTransport();
+
+    console.log('Running server in STDIO Mode...');
+    await server.connect(transport);
+  } catch(ex: any) {
+    console.error(`Error running server in STDIO mode: ${ex}`);
+  }
 }
